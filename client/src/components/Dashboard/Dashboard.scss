@@ -8,35 +8,6 @@ body {
         display: flex;
         justify-content: center;
 
-        #side_menu {
-            background-color: rgba(189, 188, 188, 0.594);
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 100%;
-            width: 200px;
-
-            .menu-list {
-                list-style: none;
-                margin: 0;
-                padding: 0;
-
-            }
-
-            .menu-link {
-                display: block;
-                padding: 10px 20px;
-                text-decoration: none;
-                font-size: 18px;
-                color: black;
-                transition: 0.3s;
-            }
-
-            .menu-link:hover {
-                background-color: rgba(189, 188, 188, 0.594);
-            }
-
-
-        }
+     
     }
 }
