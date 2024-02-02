@@ -15,6 +15,7 @@ import { ReactJSX } from "../components/ReactJsx/ReactJSX"
 import { RouterFC } from "../components/Router/Router"
 import { SideMenu } from "../components/SideMenu/SideMenu"
 import { Styling } from "../components/Styling/Styling"
+import { Icons} from "../components/Miscellaneous/ReactIcons/ReactIcons"
 
 
 export function Pages(): React.JSX.Element {
@@ -38,7 +39,7 @@ export function Pages(): React.JSX.Element {
                 <Route path="/use_memo" Component={UseMemo}></Route>
                 <Route path="/use_reducer" Component={UseReducer}></Route>
                 <Route path="/use_context" Component={UseContext}></Route>
-                
+                <Route path="/react_icons" Component={Icons}></Route>
             </Routes>
         </>
     )
